@@ -1,25 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     padding:50px 0px 0px 0px;
     z-index: 0;
+    color: #32355d;
 }
 
-.navbar-dark {
-    background-color: #512DAB;
+.navbar-light {
+    -webkit-box-shadow: 0 4px 3px -3px #999;
+    -moz-box-shadow: 0 4px 3px -3px #999;
+    box-shadow: 0 4px 3px -3px #999;
 }
 
 .navbar-brand {
     font-family: 'Baloo 2', cursive;
     font-weight: 800;
-    font-size: 34px;
     margin: 0.8% 0 0.8% 0;
+    color: #32355d !important;
+}
+
+.navbar-toggler-icon {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.nav-link {
+    font-family: 'Baloo 2', cursive;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.custom-navbar-nav .nav-link  {
+    font-family: 'Baloo 2', cursive;
+    font-weight: 700;
+    color: #32355d !important;
+    margin-left: 24px !important;
+}
+
+.custom-navbar-nav .nav-link:hover {
+    color: #ff6f96 !important;
+}
+
+.dropdown-menu {
+    font-family: 'Baloo 2', cursive;
+    color: #32355d !important;
+}
+
+.dropdown-item:hover {
+    background-color: #32355d;
+    color: #fff;
 }
 
 .active {
-
+    color: #ff6f96 !important;
 }
 
-.nav-item {
-    font-family: 'Baloo 2', cursive;
-    font-weight: 700;
-    font-size: 20px;
+.btn {
+    margin-right: 5px;
+    align-items: center
+}
+
+#phone-icon {
+    height: 14px;
+    margin-left: 5px;
+}
+
+#login {
+    background-color: #32355d;
+    border-radius: 20px;
+    padding: 0.2rem 1rem !important;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+#login:hover {
+    background-color: #ff6f96;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar-brand {
+        font-size: 26px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .custom-navbar-nav .nav-link  {
+        font-size: 18px;
+    }
+    .dropdown-menu {
+        font-size: 16px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .navbar-brand {
+        font-size: 28px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .custom-navbar-nav .nav-link  {
+        font-size: 18px;
+    }
+
+    .dropdown-menu {
+        font-size: 16px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navbar-brand {
+        font-size: 30px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+    }
+
+    .custom-navbar-nav .nav-link  {
+        font-size: 20px;
+    }
+
+    .dropdown-menu {
+        font-size: 18px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .navbar-brand {
+        font-size: 32px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .navbar-brand {
+        font-size: 34px;
+    }
 }
