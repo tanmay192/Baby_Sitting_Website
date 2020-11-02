@@ -4,15 +4,33 @@
 }
 
 body {
+    font-family: 'Baloo 2', cursive;
     padding:50px 0px 0px 0px;
     z-index: 0;
     color: #32355d;
+}
+
+.text-color-primary {
+    color: #ff6f96;
+}
+
+.text-color-secondary {
+    color: #32355d;
+}
+
+.background-color-primary {
+    background-color: #ff6f96;
+}
+
+.background-color-secondary {
+    background-color: #32355d;
 }
 
 .navbar-light {
     -webkit-box-shadow: 0 4px 3px -3px #999;
     -moz-box-shadow: 0 4px 3px -3px #999;
     box-shadow: 0 4px 3px -3px #999;
+    background-color: #fff;
 }
 
 .navbar-brand {
@@ -30,7 +48,6 @@ body {
 .nav-link {
     font-family: 'Baloo 2', cursive;
     font-weight: 500;
-    font-size: 18px;
 }
 
 .custom-navbar-nav .nav-link  {
@@ -54,7 +71,7 @@ body {
     color: #fff;
 }
 
-.active {
+.navbar .active {
     color: #ff6f96 !important;
 }
 
@@ -79,6 +96,22 @@ body {
 
 #login:hover {
     background-color: #ff6f96;
+}
+
+.modal-content {
+    background-color: #fff;
+}
+
+.modal .nav-link:hover {
+    color: #ff6f96 !important;
+}
+
+.modal .active {
+    color: #ff6f96 !important;
+}
+
+#carouselFade {
+    position: relative;
 }
 
 /* Extra small devices (phones, 600px and down) */
