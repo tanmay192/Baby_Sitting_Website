@@ -63,21 +63,46 @@ body {
 
 .dropdown-menu {
     font-family: 'Baloo 2', cursive;
+}
+
+.dropdown-item {
+    font-weight: 700;
     color: #32355d !important;
 }
 
 .dropdown-item:hover {
     background-color: #32355d;
-    color: #fff;
+    color: #fff !important;
 }
 
-.navbar .active {
+.custom-navbar-nav .nav-link .active {
     color: #ff6f96 !important;
 }
 
 .btn {
     margin-right: 5px;
     align-items: center
+}
+
+.modal .btn-primary {
+    border: 0;
+    border: 1px solid #32355d; 
+    background-color: #32355d;
+}
+
+.modal .btn-primary:hover {
+    background-color: #252849;
+}
+
+.modal .btn-secondary {
+    background-color: #fff;
+    border: 1px solid #32355d !important; 
+    color: #32355d !important;
+}
+
+.modal .btn-secondary:hover {
+    background-color: #32355d;
+    color: #fff !important;
 }
 
 #phone-icon {
@@ -87,7 +112,7 @@ body {
 
 #login {
     background-color: #32355d;
-    border-radius: 20px;
+    border-radius: 0.25rem;
     padding: 0.2rem 1rem !important;
     margin-left: 10px;
     margin-top: 5px;
@@ -102,6 +127,10 @@ body {
     background-color: #fff;
 }
 
+.modal .nav-link {
+    color: #32355d !important;
+}
+
 .modal .nav-link:hover {
     color: #ff6f96 !important;
 }
@@ -110,26 +139,86 @@ body {
     color: #ff6f96 !important;
 }
 
-#carouselFade {
-    position: relative;
+.modal label {
+    color: #000 !important;
+
 }
+
+
+#carouselFade .carousel-inner {
+    position: relative;
+} 
+
+#carouselFade .carousel-item img {
+    position: absolute;
+    min-width: 600px;
+    min-height:300px;
+}   
+
+#corouselFade .bottom-image {
+    width: 100%;
+    background-color: #ff6f96;
+    z-index: 999;
+}
+
+.carousel-content {
+    position: absolute;
+    z-index: 20;
+}
+
+.carousel-content h3 {
+    color: #32355d;
+    font-weight: 900;
+    text-shadow: 1px 1px #999;
+}
+
+.carousel-content p {
+    color: #fafafafa;
+    font-weight: 400;
+    text-shadow: 1px 1px #818284;
+}
+
+.carousel-content .btn {
+    background-color: #ff6f96;
+    border: 2px solid #ff6f96;
+}
+.carousel-content .btn:hover{
+    background-color: #32355d;
+    border: 2px solid #32355d;
+}
+
+.bottom-image {
+    position: absolute;
+    width: 100%;
+}  
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .navbar-brand {
         font-size: 26px;
     }
-
     .nav-link {
         font-size: 16px;
     }
-
     .custom-navbar-nav .nav-link  {
         font-size: 18px;
     }
     .dropdown-menu {
         font-size: 16px;
     }
+    #carouselFade .carousel-item {
+        min-height: 308px;
+    }
+    #carouselFade .carousel-item img {
+        right: -20px;
+    }
+    .carousel-content {
+        top: 20%;
+        left: 10%;
+    }
+    .carousel-content h3 {
+        font-size: 36px !important;
+    }      
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -149,6 +238,18 @@ body {
     .dropdown-menu {
         font-size: 16px;
     }
+
+    #carouselFade .carousel-item {
+        min-height: 310px;
+    }
+
+    .carousel-content {
+        top: 25%;
+        left: 13%;
+    }
+    .carousel-content h3 {
+        font-size: 36px !important;
+    } 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -168,6 +269,22 @@ body {
     .dropdown-menu {
         font-size: 18px;
     }
+
+    #carouselFade .carousel-item {
+        min-height: 398px;
+        max-height: 483px;
+    }
+    .carousel-content {
+        top: 22%;
+        left: 14%;
+    }
+    .carousel-content h3 {
+        font-size: 38px !important;
+    } 
+
+    .carousel-content p {
+        font-size: 20px !important;
+    } 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -175,6 +292,21 @@ body {
     .navbar-brand {
         font-size: 32px;
     }
+    #carouselFade .carousel-item {
+        min-height: 483px;
+        max-height: 580px;
+    }
+    .carousel-content {
+        top: 18%;
+        left: 12%;
+    }
+    .carousel-content h3 {
+        font-size: 42px !important;
+    } 
+
+    .carousel-content p {
+        font-size: 21px !important;
+    } 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -182,4 +314,42 @@ body {
     .navbar-brand {
         font-size: 34px;
     }
+    #carouselFade .carousel-item {
+        min-height: 540px;
+        max-height: 700px
+    }
+    #carouselFade .carousel-item img {
+        top: -100px;
+    }
+    .carousel-content {
+        top: 22%;
+        left: 10%;
+    }
+    .carousel-content h3 {
+        font-size: 48px !important;
+    } 
+
+    .carousel-content p {
+        font-size: 22px !important;
+    } 
+}
+
+@media only screen and (min-width: 1400px) {
+    #carouselFade .carousel-item {
+        min-height: 700px;
+    }
+    #carouselFade .carousel-item img {
+        top: -100px;
+    }
+    .carousel-content {
+        top: 28%;
+        left: 21%;
+    }
+    .carousel-content h3 {
+        font-size: 56px !important;
+    } 
+
+    .carousel-content p {
+        font-size: 24px !important;
+    } 
 }
