@@ -81,7 +81,7 @@ body {
 
 .btn {
     margin-right: 5px;
-    align-items: center
+    align-items: center;
 }
 
 .modal .btn-primary {
@@ -194,7 +194,7 @@ body {
 
 #hiw .img-thumbnail {
     margin: 15% 0;
-    padding: 5%;
+    padding: 4%;
 }
 
 #hiw p {
@@ -221,6 +221,24 @@ body {
 }
 #hp {
     border: 2px dashed #dce086;
+}
+
+#video {
+    background-color: #32355d;
+    margin-top: 3%;
+}
+
+#video video {
+    width: 100%;
+    height: 100%;
+}
+
+#video .video {
+    padding: 0;
+}
+
+#video p, #video h3 { 
+    color: #fff !important;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -251,9 +269,14 @@ body {
         font-size: 36px !important;
     }      
 
-    #hiw h3 {
+    h3 {
         font-size: 28px;
         font-weight: 800;
+    }
+
+    p {
+        font-size: 19px;
+        font-weight: 200;
     }
 }
 
@@ -287,9 +310,14 @@ body {
         font-size: 36px !important;
     } 
 
-    #hiw h3 {
+    h3 {
         font-size: 30px;
         font-weight: 800;
+    }
+    
+    p {
+        font-size: 20px;
+        font-weight: 200;
     }
 }
 
@@ -327,7 +355,7 @@ body {
         font-size: 20px !important;
     } 
 
-    #hiw h3 {
+    h3 {
         font-size: 32px;
         font-weight: 800;
     }
@@ -357,9 +385,14 @@ body {
     .carousel-content p {
         font-size: 21px !important;
     } 
-    #hiw h3 {
+    h3 {
         font-size: 34px;
         font-weight: 800;
+    }
+
+    p {
+        font-size: 21px;
+        font-weight: 200;
     }
 }
 
@@ -386,7 +419,7 @@ body {
     .carousel-content p {
         font-size: 22px !important;
     } 
-    #hiw h3 {
+    h3 {
         font-size: 36px;
         font-weight: 800;
     }
