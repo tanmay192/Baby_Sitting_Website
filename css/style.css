@@ -179,6 +179,7 @@ body {
 }
 
 .carousel-content .btn {
+    font-size: 20px !important;
     background-color: #ff6f96;
     border: 2px solid #ff6f96;
 }
@@ -187,10 +188,40 @@ body {
     border: 2px solid #32355d;
 }
 
-.bottom-image {
-    position: absolute;
-    width: 100%;
-}  
+#hiw  {
+    margin-top: 3%;    
+}
+
+#hiw .img-thumbnail {
+    margin: 15% 0;
+    padding: 5%;
+}
+
+#hiw p {
+    color: #8f9093 !important;
+    font-weight: normal;
+}
+
+#hiw h5 {
+    font-weight: 800;
+}
+
+#jn {
+    border: 2px dashed #dce086;
+    transform: rotate(-5deg);
+    transition: transform 5s;
+}
+#fb {
+    border: 2px dashed #ff6f96;
+    border-radius: 50%;
+}
+#hb {
+    border: 2px dashed #9ad8d3;
+    transform: rotate(5deg);
+}
+#hp {
+    border: 2px dashed #dce086;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -219,6 +250,11 @@ body {
     .carousel-content h3 {
         font-size: 36px !important;
     }      
+
+    #hiw h3 {
+        font-size: 28px;
+        font-weight: 800;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -250,6 +286,11 @@ body {
     .carousel-content h3 {
         font-size: 36px !important;
     } 
+
+    #hiw h3 {
+        font-size: 30px;
+        font-weight: 800;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -275,7 +316,7 @@ body {
         max-height: 483px;
     }
     .carousel-content {
-        top: 22%;
+        top: 20%;
         left: 14%;
     }
     .carousel-content h3 {
@@ -285,6 +326,15 @@ body {
     .carousel-content p {
         font-size: 20px !important;
     } 
+
+    #hiw h3 {
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    #hiw h5 {
+        font-size: 22px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -307,6 +357,10 @@ body {
     .carousel-content p {
         font-size: 21px !important;
     } 
+    #hiw h3 {
+        font-size: 34px;
+        font-weight: 800;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -332,9 +386,13 @@ body {
     .carousel-content p {
         font-size: 22px !important;
     } 
+    #hiw h3 {
+        font-size: 36px;
+        font-weight: 800;
+    }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1550px) {
     #carouselFade .carousel-item {
         min-height: 700px;
     }
