@@ -189,7 +189,7 @@ body {
 }
 
 #hiw  {
-    margin-top: 3%;    
+    margin-top: 4%;    
 }
 
 #hiw .img-thumbnail {
@@ -225,7 +225,7 @@ body {
 
 #video {
     background-color: #32355d;
-    margin-top: 3%;
+    margin-top: 4%;
 }
 
 #video video {
@@ -240,6 +240,57 @@ body {
 #video p, #video h3 { 
     color: #fff !important;
 }
+
+#rates {
+    margin-top: 4%;
+}
+
+#rates .card {
+    padding: 0 !important;
+    margin-top: 2%;
+}
+
+#rates .card-header {
+    padding-right: 0;
+    padding-left: 0;
+    color: #fff !important;
+}
+
+#rates .daily {
+    background-color: #dce086;
+    border: 1px solid #dce086 !important;
+}
+
+#rates .weekly {
+    background-color: #ff6f96;
+    border: 1px solid #ff6f96 !important;
+}
+
+#rates .monthly {
+    background-color: #9ad8d3;
+    border: 1px solid #9ad8d3;
+}
+
+#rates .card-text {
+    padding: 15px 15px 5px 15px !important;
+    color: #818284;
+}
+
+#rates h4 {
+    margin-bottom: 15px;
+    font-size: 26px;
+    font-weight: 700;
+    
+}
+
+#rates .btn {
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+#rates .btn-primary {
+    margin-right: 0;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -277,6 +328,7 @@ body {
     p {
         font-size: 19px;
         font-weight: 200;
+        line-height: 1.5;
     }
 }
 
@@ -318,6 +370,7 @@ body {
     p {
         font-size: 20px;
         font-weight: 200;
+        line-height: 1.6;
     }
 }
 
@@ -393,6 +446,11 @@ body {
     p {
         font-size: 21px;
         font-weight: 200;
+        line-height: 1.8;
+    }
+
+    #hiw p {
+        line-height: 1.5;
     }
 }
 
