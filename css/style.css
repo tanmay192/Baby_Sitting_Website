@@ -245,6 +245,10 @@ body {
     margin-top: 4%;
 }
 
+#rates .card-deck {
+    padding: 0 15px;
+}
+
 #rates .card {
     padding: 0 !important;
     margin-top: 2%;
@@ -280,7 +284,6 @@ body {
     margin-bottom: 15px;
     font-size: 26px;
     font-weight: 700;
-    
 }
 
 #rates .btn {
@@ -289,6 +292,39 @@ body {
 
 #rates .btn-primary {
     margin-right: 0;
+}
+
+#gallery {
+    margin-top: 4%;
+}
+
+#galleryCarousel {
+    margin-top: 2%; 
+}
+
+#galleryCarousel .img-fluid {
+    padding: 0;
+}
+
+#galleryCarousel .carousel-inner .carousel-item.active,
+#galleryCarousel .carousel-inner .carousel-item-next,
+#galleryCarousel .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+#galleryCarousel .carousel-inner .carousel-item-right .active,
+#galleryCarousel .carousel-inner .carousel-item-next {
+  transform: translateX(25%);
+}
+
+#galleryCarousel .carousel-inner .carousel-item-left .active, 
+#galleryCarousel .carousel-inner .carousel-item-prev {
+  transform: translateX(-25%);
+}
+  
+#galleryCarousel .carousel-inner .carousel-item-right,
+#galleryCarousel .carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
 }
 
 
