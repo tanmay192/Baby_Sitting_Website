@@ -200,6 +200,8 @@ body {
 #hiw p {
     color: #8f9093 !important;
     font-weight: normal;
+    line-height: 1.5;
+    font-size: 16px;
 }
 
 #hiw h5 {
@@ -298,6 +300,10 @@ body {
     margin-top: 4%;
 }
 
+#gallery p {
+    color: #818284;
+}
+
 #galleryCarousel {
     margin-top: 2%; 
 }
@@ -344,7 +350,6 @@ body {
     background-color:#32355d;
     border: 1px solid #555;
     border-radius: 0.25rem;
-    width: 82%;
 }
 
 #newsletter .btn {
@@ -354,6 +359,88 @@ body {
 #newsletter .btn-primary {
     background-color: #ff6f96;
     border-color: #ff6f96;
+}
+
+#caregivers {
+    margin-top: 4%;
+}
+
+#caregivers .card-deck {
+    padding: 0 15px;
+}
+
+#caregivers .card {
+    padding: 0 !important;
+    margin-top: 2%;
+}
+
+#caregivers h4 {
+    font-weight: 700;
+}
+
+#caregivers p {
+    color: #818284;
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 4%;
+    background-color: #32355d;
+    color: #fff !important;
+    min-height: 380px;
+}
+
+footer .navbar-brand {
+    color: #fff !important;
+    margin: 0;
+    padding-top: 0;
+}
+
+footer p {
+    color: #fff;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+footer h4 {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+footer a {
+    font-weight: 800;
+    color: #fff !important;
+    line-height: 2;
+}
+
+footer .link a:hover {
+    color: #ff6f96 !important;
+    text-decoration: none;
+}
+
+footer .btn-md {
+    padding: 0 0.25rem;
+}
+
+footer .fa-facebook-f:hover {
+    color: #4267b2 !important;
+}
+
+footer .fa-linkedin-in:hover {
+    color: #0a66a2 !important;
+}
+
+footer .fa-twitter:hover {
+    color: #1da1f2 !important;
+}
+
+footer .fa-instagram:hover {
+    color: #3f729b !important;
+}
+
+footer .fa-youtube:hover {
+    color: #ff0000 !important;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -397,6 +484,10 @@ body {
 
     #newsletter h5 {
         font-size: 21px;
+    }
+
+    #newsletter input {
+        width: 100%;
     }
 }
 
@@ -443,6 +534,10 @@ body {
     
     #newsletter h5 {
         font-size: 22px;
+    }
+
+    #newsletter input {
+        width: 100%;
     }
 }
 
@@ -556,6 +651,9 @@ body {
     h3 {
         font-size: 36px;
         font-weight: 800;
+    }
+    #newsletter input {
+        width: 82%;
     }
 }
 

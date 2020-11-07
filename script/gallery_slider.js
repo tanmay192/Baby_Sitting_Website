@@ -9,7 +9,7 @@ $('.gallery .carousel .carousel-item').each(function(){
     }
     next.children(':first-child').clone().appendTo($(this));
       
-    for (var i = 0; i < 3; i++) {
+    for (var i = 0; i < 2; i++) {
         next = next.next();
         if (!next.length) {
             next = $(this).siblings(':first');
