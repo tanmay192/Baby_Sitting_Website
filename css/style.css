@@ -443,6 +443,55 @@ footer .fa-youtube:hover {
     color: #ff0000 !important;
 }
 
+.aboutus-banner {
+    background-image: url("../img/14.jpg");
+}
+
+#banner {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#banner h3 {
+    padding: 0.3rem 1rem;
+    background-color: #9ad8d3;
+    position: absolute;
+}
+
+#banner .breadcrumb {
+    width: auto;
+    background-color: #dce086;
+    position: absolute;
+    border-radius: 0;
+}
+
+#banner ol {
+    padding: 0.3rem 0.8rem;
+}
+
+#banner .breadcrumb li, 
+#banner .breadcrumb a {
+    color: #32355d;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#banner .breadcrumb a:hover {
+    color: #ff6f96;
+}
+
+#content {
+    margin-top: 4%;
+}
+
+.rates-banner {
+    background-image: url("../img/15.jpg");
+}
+
+.babysitters-banner {
+    background-image: url("../img/13.jpg");
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .navbar-brand {
@@ -488,6 +537,28 @@ footer .fa-youtube:hover {
 
     #newsletter input {
         width: 100%;
+    }
+
+    #copyright p {
+        font-size: 14px;
+    }
+
+    #banner {
+        background-size: 800px;
+        min-height: 278px;
+        background-position: 50% -10%;
+    }
+
+    #banner h3 {
+        margin: 0 15px;
+        font-size: 36px !important;
+        top: 150px;
+    }
+
+    #banner .breadcrumb {
+        margin: 0 15px;
+        top: 215px;
+        font-size: 20px;
     }
 }
 
@@ -539,6 +610,28 @@ footer .fa-youtube:hover {
     #newsletter input {
         width: 100%;
     }
+
+    #copyright p {
+        font-size: 16px;
+    }
+
+    #banner {
+        background-size: 1080px;
+        min-height: 298px;
+        background-position: 50% -10%;
+    }
+
+    #banner h3 {
+        margin: 0 18px;
+        font-size: 38px !important;
+        top: 160px;
+    }
+
+    #banner .breadcrumb {
+        margin: 0 18px;
+        font-size: 21px;
+        top: 225px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -587,6 +680,10 @@ footer .fa-youtube:hover {
     #newsletter h5 {
         font-size: 24px;
     }
+
+    #copyright p {
+        font-size: 18px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -623,6 +720,24 @@ footer .fa-youtube:hover {
     #hiw p {
         line-height: 1.5;
     }
+
+    #banner {
+        background-size: 1408px;
+        min-height: 358px;
+        background-position: 50% -10%;
+    }
+
+    #banner h3 {
+        margin: 0 18px;
+        font-size: 48px !important;
+        top: 180px;
+    }
+
+    #banner .breadcrumb {
+        margin: 0 18px;
+        top: 255px;
+        font-size: 22px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -655,6 +770,24 @@ footer .fa-youtube:hover {
     #newsletter input {
         width: 82%;
     }
+
+    #banner {
+        background-size: 1408px;
+        min-height: 348px;
+        background-position: 50% -10%;
+    }
+
+    #banner h3 {
+        margin: 0 18px;
+        font-size: 48px !important;
+        top: 180px;
+    }
+
+    #banner .breadcrumb {
+        margin: 0 18px;
+        top: 255px;
+        font-size: 22px;
+    }
 }
 
 @media only screen and (min-width: 1550px) {
@@ -674,5 +807,23 @@ footer .fa-youtube:hover {
 
     .carousel-content p {
         font-size: 24px !important;
-    } 
+    }
+    
+    #banner {
+        background-size: 100%;
+        min-height: 408px;
+        background-position: 50% 0%;
+    }
+
+    #banner h3 {
+        margin: 0 18px;
+        font-size: 48px !important;
+        top: 215px;
+    }
+
+    #banner .breadcrumb {
+        margin: 0 18px;
+        top: 290px;
+        font-size: 22px;
+    }
 }
