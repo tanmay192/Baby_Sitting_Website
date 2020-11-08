@@ -492,6 +492,23 @@ footer .fa-youtube:hover {
     background-image: url("../img/13.jpg");
 }
 
+.gallery-banner {
+    background-image: url("../img/19.jpg");
+}
+
+#img-gallery {
+    margin-top: 4%;
+}
+
+.img-gallery {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    column-width: 33%; 
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .navbar-brand {
@@ -559,6 +576,15 @@ footer .fa-youtube:hover {
         margin: 0 15px;
         top: 215px;
         font-size: 20px;
+    }
+
+    .img-gallery {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+        -webkit-column-width: 100%;
+        -moz-column-width: 100%;
+        column-width: 100%;
     }
 }
 
